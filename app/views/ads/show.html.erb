@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @ad.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @ad.text %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @ad.number %>
+</p>
+
+<p>
+  <strong>Published date:</strong>
+  <%= @ad.published_date %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @ad.city_id %>
+</p>
+
+<%= link_to 'Edit', edit_ad_path(@ad) %> |
+<%= link_to 'Back', ads_path %>
